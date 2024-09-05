@@ -10,6 +10,17 @@ body {
     padding: 0;
     margin: 0;
 }
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 10px;
+    max-width: max-content;
+}
+
 .logo-placeholder {
     color: #F9FAF8;
     font-size: 24px;
@@ -75,13 +86,35 @@ li, .hero-subtext {
 .hero-subtext {
     margin: 0;
 }
-button {
-    background-color: #3882F6;
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+    gap: 5px;
+}
+.info-card img {
+    width: 130px;
+    height: 120px;
+    border: 2px solid #3882F6;
     border-radius: 10px;
-    border-color: #3882F6;
-    color: white;
-    font-size: 18px;
+}
+.info-card p {
+    margin: 0;
+    padding: 0;
+}
+.info-title {
+    font-size: 36px;
     font-weight: 900;
-    padding: 5px 10px;
-    max-width: max-content;
+    color: #1F2937;
+    text-align: center;
+}
+.info-top {
+    padding-bottom: 36px;
 }
