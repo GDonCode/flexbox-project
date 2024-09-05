@@ -3,6 +3,9 @@
 html {
     font-family: "Roboto";
 }
+html * {
+    box-sizing: border-box;
+}
 body {
     padding: 0;
     margin: 0;
@@ -35,10 +38,18 @@ li, .hero-subtext {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    height: auto;
 }
 .hero-container {
     padding: 15px 200px 100px;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: auto;
+}
+.hero-left, .hero-right {
+    height: 100%;
 }
 .hero-left {
     display: flex;
@@ -48,9 +59,9 @@ li, .hero-subtext {
 }
 .hero-right {
     width: 50%;
-    height: 500px;
-    border: 1px solid black;
+    height: 220px;
     background-image: url(images/pexels-steve-1269968.jpg);
+    background-size: cover;
 }
 .hero-right img {
     object-fit: fill;
