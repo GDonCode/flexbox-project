@@ -118,3 +118,25 @@ li, .hero-subtext {
 .info-top {
     padding-bottom: 36px;
 }
+.info-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.quote-author {
+    font-size: 30px;
+    font-weight: 800;
+    align-self: end;
+    margin: 0;
+}
