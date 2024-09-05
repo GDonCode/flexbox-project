@@ -25,9 +25,26 @@ ul {
     display: flex;
     gap: 20px;
 }
-li {
+li, .hero-subtext {
     text-decoration: none;
     list-style-type: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+.hero {
+    background-color: #1F2937;
+}
+.hero-maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 10px;
 }
