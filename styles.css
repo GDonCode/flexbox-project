@@ -16,7 +16,6 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 15px 200px;
     align-items: center;
 }
 ul {
@@ -33,11 +32,37 @@ li, .hero-subtext {
 }
 .hero {
     background-color: #1F2937;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.hero-container {
+    padding: 15px 200px 100px;
+    background-color: #1F2937;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.hero-right {
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url(images/pexels-steve-1269968.jpg);
+}
+.hero-right img {
+    object-fit: fill;
 }
 .hero-maintext {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
+}
+.hero-subtext {
+    margin: 0;
 }
 button {
     background-color: #3882F6;
@@ -47,4 +72,5 @@ button {
     font-size: 18px;
     font-weight: 900;
     padding: 5px 10px;
+    max-width: max-content;
 }
