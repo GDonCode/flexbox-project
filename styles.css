@@ -10,7 +10,7 @@ body {
     padding: 0;
     margin: 0;
 }
-button {
+.hero-left button {
     background-color: #3882F6;
     border-radius: 10px;
     border-color: #3882F6;
@@ -133,10 +133,53 @@ li, .hero-subtext {
     font-weight: 300;
     margin-bottom: 0px;
 }
-
 .quote-author {
     font-size: 30px;
     font-weight: 800;
     align-self: end;
     margin: 0;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+.cta {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    display: flex;
+    gap: 10px;
+    margin: 100px 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+.cta-text p:nth-of-type(1) {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+.cta-text p:nth-of-type(2) {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.cta button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: white;
+    border-color: white;
+    font-size: 18px;
+    font-weight: 900;
+    max-width: max-content;
+    height: max-content;
+    padding: 5px 10px;
 }
