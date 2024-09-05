@@ -50,6 +50,7 @@ li, .hero-subtext {
     gap: 20px;
     justify-content: space-between;
     height: auto;
+    flex-wrap: wrap;
 }
 .hero-container {
     padding: 15px 200px 100px;
@@ -59,18 +60,18 @@ li, .hero-subtext {
     gap: 100px;
     height: auto;
 }
-.hero-left, .hero-right {
+.hero-left, .hero-right{
     height: 100%;
 }
 .hero-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 49%;
     gap: 15px;
 }
 .hero-right {
-    width: 50%;
-    height: 220px;
+    width: 48%;
+    height: 250px;
     background-image: url(images/pexels-steve-1269968.jpg);
     background-size: cover;
 }
@@ -90,6 +91,7 @@ li, .hero-subtext {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .info-card {
     display: flex;
@@ -155,6 +157,7 @@ li, .hero-subtext {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cta-text {
     display: flex;
@@ -182,4 +185,12 @@ li, .hero-subtext {
     max-width: max-content;
     height: max-content;
     padding: 5px 10px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
 }
